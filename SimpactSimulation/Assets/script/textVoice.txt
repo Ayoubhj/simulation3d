@@ -1,0 +1,225 @@
+{{1a-rep.mp3}}
+Bonjour Docteur, comment allez-vous ?
+
+{{1a-doc.mp3}}
+Très bien merci, mais je suis déjà bien en retard dans mes consultations.
+
+{{2a-rep.mp3}}
+Je comprends. Je suggère de nous concentrer sur les dernières nouveautés concernant isilax solution buvable . Cela ne devrait pas prendre plus de 5 minutes. Etes-vous d’accord ?
+
+{{2b-rep.mp3}}
+Je comprends. Je suggère de nous concentrer sur les dernières informations concernant isilax solution buvable. Je vais faire au plus court. Etes vous d'accord ?
+
+{{2a-doc.mp3}}
+Parfait, allons-y!
+
+{{2b-doc.mp3}}
+Parfait, allons-y!
+
+{{3a-rep.mp3}}
+Lors de notre dernier entretien vous m’avez dit que vous prescriviez isilax solution buvable à un petit nombre de patients. Avez-vous eu l'occasion de l’utiliser chez d'autres patients depuis ?
+
+{{3b-rep.mp3}}
+Lors de notre dernier entretien vous m’avez dit que vous prescriviez isilax solution buvable à un petit nombre de patients. Est-ce toujours le cas ?
+
+{{3c-rep.mp3}}
+Lors de notre dernier entretien vous m’avez dit que vous prescriviez principalement le concurrent d'isilax solution buvable. Avez-vous changé d'avis ?
+
+{{3a-doc.mp3}}
+Oui effectivement pour quelques uns de mes nouveaux patients  j'ai prescrit isilax solution buvable.
+
+{{3b-doc.mp3}}
+Oui on peut dire ça.
+
+{{3c-doc.mp3}}
+Non, je prescris toujours DUPHALAC. Mais il m’arrive de prescrire isilax solution buvable occasionnellement.
+
+{{4a-rep.mp3}}
+Je suis heureux de savoir que vous avez eu une certaine expérience avec isilax solution buvable auprès de vos patients. isilax solution buvable grâce à sa composante naturelle offre à vos patients une triple action: -Un Effet laxatif osmotique. -Un Effet laxatif de lest. - avec une Action bifidogène.
+
+{{4b-rep.mp3}}
+Je suis heureux de savoir que vous avez quand même un peu d’expérience avec isilax solution buvable. Saviez-vous qu'isilax solution buvable offre à vos patients une triple action: -Un Effet laxatif osmotique. -Un Effet laxatif de lest. -Avec une Action bifidogène. 
+
+{{4c-rep.mp3}}
+Aujourd’hui je suis particulièrement fier de vous apprendre qu'isilax solution buvable offre à vos patients une triple action: -Un Effet laxatif osmotique. -Un Effet laxatif de lest. -Avec une Action bifidogène.
+
+{{4d-rep.mp3}}
+je ne sais pas si cela fera une différence, mais isilax solution buvable offre à vos patients une triple action grâce à sa composante naturelle: -Un Effet laxatif osmotique. -Un Effet laxatif de lest. -Avec une Action bifidogène.
+
+{{4a-doc.mp3}}
+Très bien.
+
+{{4b-doc.mp3}}
+Bien sûr, je suis au courant.
+
+{{4c-doc.mp3}}
+Bien sûr, je suis au courant.
+
+{{4d-doc.mp3}}
+Bien sûr, je suis au courant.
+
+{{5a-rep.mp3}}
+L’objectif de ma visite aujourd’hui est de vous démontrer les avantages d’isilax solution buvable par rapport à DUPHALAC pour tous vos nouveaux patients.
+
+{{5b-rep.mp3}}
+L’objectif de ma visite aujourd’hui est de vous démontrez les avantages significatifs d’isilax solution buvable comparés à DUPHALAC.
+
+{{5c-rep.mp3}}
+Le but de ma visite aujourd’hui est de vous démontrer les avantages d'isilax solution buvable.
+
+{{5d-rep.mp3}}
+J'imagine que vous êtes soucieux du prix d'isilax solution buvable mais laissez-moi vous démontrer ses avantanges.
+
+{{5a-doc.mp3}}
+Et bien j’écoute.
+
+{{5b-doc.mp3}}
+OK, continuez.
+
+{{5c-doc.mp3}}
+OK, j’écoute.
+
+{{5d-doc.mp3}}
+Ce n'est pas la seule raison mais bon je vous écoute.
+
+{{6a-rep.mp3}}
+Sachez Docteur en prescrivant isilax solution buvable,vous allez offrir à vos patient une triple action : -Effet laxatif osmotique. -Effet laxatif de lest. -Action bifidogène. isilax solution buvable est le seul médicament dans sa classe qui offre à vos patients ces avantages.
+
+
+{{6a-doc.mp3}}
+Absolument c'est important.
+
+{{6b-rep.mp3}}
+isilax SB Docteur, grâce à sa formule triple action : -Avec un Effet laxatif osmotique. -Un Effet laxatif de lest. -et une Action bifidogène. Apporte une efficacité à vos patients avec un bien-être intestinal contrairement à DUPHALAC. Ne pensez vous pas Docteur que l'efficacité avec une bonne tolérance représentent un grand avantage?
+
+{{6b-doc.mp3}}
+Bien sûr que l’efficacité et la tolérance sont importantes dans le traitement.
+
+{{7a-rep.mp3}}
+Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Est-ce la cas pour vous ? Puis je vous demander combien vous en voyez environ chaque jour ? 
+
+{{7b-rep.mp3}}
+Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Avez-vous la même impression ?
+
+{{7c-rep.mp3}}
+Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Puis-je vous demander combien de fois par jour vous prescrivez-un médicament de cette classe ?
+
+{{7a-doc.mp3}}
+Je n’ai pas le chiffre exact, mais je dirais une dizaine
+
+{{7b-doc.mp3}}
+Oui, clairement je vois de plus en plus de patients.
+
+{{7c-doc.mp3}}
+Je ne sais pas, mais certainement beaucoup.
+
+{{8a-rep.mp3}}
+Puis-je vous demander environ combien d’entre eux prennent isilax solution buvable ? 1 patient ?
+
+{{8b-rep.mp3}}
+Puis-je vous demander combien prennent isilax solution buvable, même approximativement?
+
+{{8a-doc.mp3}}
+Ah non, je dirais  2 ou 3.
+
+{{8b-doc.mp3}}
+Honnêtement, je n’en ai aucune idée. Peut être 4 ou 5. 
+
+{{9b-rep.mp3}}
+L'efficacité ainsi que la tolérance d'isilax solution buvable sont liés à sa composante, ce qui offre à vos patients un soulagement rapide et une amélioration du transit.
+
+{{9a-doc.mp3}}
+C’est en effet très intéressant, mais qu’en est-il des effets secondaires ?
+
+{{9b-doc.mp3}}
+C’est en effet très intéressant, mais qu’en est-il des effets secondaires ?
+
+{{10a-rep.mp3}}
+Je vous remercie de me poser la question car isilax solution buvable est le seul de sa classe qui est préscrit auprès des nourissants contrairement aux autres. La sécurité représente un grand avantage auprès de vos patient Docteur.
+
+{{10b-rep.mp3}}
+Je le compare à DUPHALAC qui est beaucoup moins cher.
+
+{{10a-doc.mp3}}
+C’est juste, mais votre médicament est également plus cher !
+
+{{10b-doc.mp3}}
+C’est juste, mais votre médicament est également plus cher !
+
+{{11a-rep.mp3}}
+Votre souci est bien légitime compte-tenu du contexte économique actuel. Mais pour mieux vous comprendre, puis-je vous demander avec quel autre médicament comparez-vous isilax solution buvable ?
+
+{{11b-rep.mp3}}
+C’est le prix de la formule d'isilax solution buvable. Puis-je vous demander à quel médicament comparez-vous isilax solution buvable ?
+
+{{11a-doc.mp3}}
+Je le compare à DUPHALAC qui  est moins cher de presque 35 DH d'isilax solution buvable.
+
+{{11b-doc.mp3}}
+Je le compare à DUPHALAC qui est beaucoup moins cher.                
+
+{{12a-rep.mp3}}
+C'est vrai Dr , on est un peu plus cher et c'est justifié .isilax solution buvable est le seul laxatif qui offre une triple action grâce à sa formule naturelle et c'est le seul qui est indiqué chez le nourisson  contrairement à l'autre produit. En plus de l'éfficacité Docteur je vous apporte la tolérance, la sécurité et le bien être pour vos patients..
+
+{{12b-rep.mp3}}
+Les nouveaux produits sont en général plus chers.  isilax solution buvable est une innovation vu sa formule complète.Le prix d'isilax est justifié par rapport à DUPHALAC.
+
+{{12a-doc.mp3}}
+Effectivement, ça se tient.
+
+{{12b-doc.mp3}}
+Clairement, cela couterait beaucoup plus cher sans aucun doute.
+
+{{13a-rep.mp3}}
+Pour résumer, quels sont les trois points clefs à retenir sur isilax solution buvable : Premièrement, isilax solution buvable c'est le seul de sa classe qui offre une triple action pour une éfficacité et un soulagement rapide de vos patients. Deuxièmement,la bonne tolérance qui a été démontrée grâce à ses composants naturels. Et enfin, la sécurité d'emploi .Et  Comme vous l’avez souligné DR , un bon traitement doit être bien toléré ne serait ce que pour éviter l'arrêt du traitement pour une bonne observance.
+
+{{13b-rep.mp3}}
+Pour résumer, le mode d’action d’isilax solution buvable fait de lui un laxatif efficace avec sa triple action.  Je pense que vous auriez intérêt à essayer de prescrire isilax solution buvable à la place de DUPHALAC pour vos nouveaux patients. Ainsi nous pourrons en discuter lors de ma prochaine visite.
+
+{{13c-rep.mp3}}
+Comme vous m’avez l’air convaincu, seriez-vous prêt à prescrire isilax solution buvable plus souvent ? comme ça lors de ma prochaine visite, nous parlerons de vos résultats et de votre feedback ? La posologie est 1 à 2 cuillères à café chez le nourisson et l'enfant.Chez l'adulte 1 à 2 cuillères à soupe 2 fois par jour.
+
+{{13a-doc.mp3}}
+Tout à fait.
+
+{{13b-doc.mp3}}
+C’est une idée.
+
+{{13c-doc.mp3}}
+Non non, merci, c'était très intéressant.
+
+{{14a-rep.mp3}}
+Compte-tenu de tout ces avantages, êtes vous prêt à prescrire isilax solution buvable à vos nouveaux patients ?
+
+{{14b-rep.mp3}}
+Donc allez vous commencer à prescrire isilax solution buvable à tous vos nouveaux patients ?
+
+{{14c-rep.mp3}}
+Compte-tenu des avantages que nous avons abordés, je compte sur vous pour prescrire isilax solution buvable à tous vos nouveaux patients.
+
+{{14a-doc.mp3}}
+Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.
+
+{{14b-doc.mp3}}
+Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.
+
+{{14c-doc.mp3}}
+Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.
+
+{{15a-rep.mp3}}
+J’espère que ces nouvelles informations vous feront changer d’avis. Puis-je vous suggérer DR que nous discutions de votre expérience lors de ma prochaine visite?
+
+{{15b-rep.mp3}}
+Discutons-en DR à nouveau lors de ma prochaine visite.
+
+{{15c-rep.mp3}}
+Dommage. J’espère que nous pourrons en discuter DR la prochaine fois.
+
+{{15a-doc.mp3}}
+Avec plaisir !
+
+{{15b-doc.mp3}}
+Désolé mais j’ai des patients à voir maintenant. Bonne journée.
+
+{{15d-doc.mp3}}
+Avec plaisir !

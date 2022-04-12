@@ -1,0 +1,722 @@
+{
+    "steps": {
+      "step": [
+        {
+          "id": "0",
+          "text": "Opening"
+        },
+        {
+          "id": "1",
+          "text": "Useful questions"
+        },
+        {
+          "id": "2",
+          "text": "Closing"
+        }
+      ]
+    },
+    "dialogs": {
+      "dialog": [
+        {
+          "id": "1",
+          "score": "0",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [{
+              "id": "1",
+              "weight": "1",
+              "answer": "1",
+              "text": "Bonjour Docteur, comment allez-vous ?",
+              "voice": "1a-rep.mp3"
+            }]
+          },
+          "answers": {
+            "answer": [{
+              "id": "1",
+              "gotodialog": "2",
+              "text": "Très bien merci, mais je suis déjà bien en retard dans mes consultations.",
+              "voice": "1a-doc.mp3"
+            }]
+          }
+        },
+        {
+          "id": "2",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Je comprends. Je suggère de nous concentrer sur les dernières nouveautés concernant ISILAX SB . Cela ne devrait pas prendre plus de 5 minutes. Etes-vous d’accord ?",
+                "voice": "2a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "Je comprends. Je suggère de nous concentrer sur les dernières informations concernant ISILAX SB. Je vais faire au plus court. Etes vous d'accord ?",
+                "voice": "2b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "3",
+                "text": "Parfait, allons-y!",
+                "voice": "2a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "3",
+                "text": "Parfait, allons-y!",
+                "voice": "2b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Lors de notre dernier entretien vous m’avez dit que vous prescriviez ISILAX SB à un petit nombre de patients. Avez-vous eu l'occasion de l’utiliser chez d'autres patients depuis ?",
+                "voice": "3a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "Lors de notre dernier entretien vous m’avez dit que vous prescriviez ISILAX SB à un petit nombre de patients. Est-ce toujours le cas ?",
+                "voice": "3b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.2",
+                "answer": "3",
+                "text": "Lors de notre dernier entretien vous m’avez dit que vous prescriviez principalement le concurrent d'ISILAX SB. Avez-vous changé d'avis ?",
+                "voice": "3c-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "4",
+                "text": "Oui effectivement pour quelques uns de mes nouveaux patients  j'ai prescrit ISILAX SB.",
+                "voice": "3a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "4",
+                "text": "Oui on peut dire ça.",
+                "voice": "3b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "4",
+                "text": "Non, je prescris toujours DUPHALAC. Mais il m’arrive de prescrire ISILAX SB occasionnellement.",
+                "voice": "3c-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Je suis heureux de savoir que vous avez eu une certaine expérience avec ISILAX SB auprès de vos patients.\n ISILAX SB grâce à sa composante naturelle offre à vos patients une triple action:\n -Un Effet laxatif osmotique.\n -Un Effet laxatif de lest.\n - avec une Action bifidogène.\n",
+                "voice": "4a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "Je suis heureux de savoir que vous avez quand même un peu d’expérience avec ISILAX SB. Saviez-vous qu'ISILAX SB offre à vos patients une triple action:\n -Un Effet laxatif osmotique.\n -Un Effet laxatif de lest.\n -Avec une Action bifidogène. \n",
+                "voice": "4b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.6",
+                "answer": "3",
+                "text": "Aujourd’hui je suis particulièrement fier de vous apprendre qu'ISILAX SB offre à vos patients une triple action:\n -Un Effet laxatif osmotique.\n -Un Effet laxatif de lest.\n -Avec une Action bifidogène.\n",
+                "voice": "4c-rep.mp3"
+              },
+              {
+                "id": "4",
+                "weight": "0.2",
+                "answer": "4",
+                "text": "je ne sais pas si cela fera une différence, mais ISILAX SB offre à vos patients une triple action grâce à sa composante naturelle:\n -Un Effet laxatif osmotique.\n -Un Effet laxatif de lest.\n -Avec une Action bifidogène.\n",
+                "voice": "4d-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "5",
+                "text": "Très bien.",
+                "voice": "4a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "5",
+                "text": "Bien sûr, je suis au courant.",
+                "voice": "4b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "5",
+                "text": "Bien sûr, je suis au courant.",
+                "voice": "4c-doc.mp3"
+              },
+              {
+                "id": "4",
+                "gotodialog": "5",
+                "text": "Bien sûr, je suis au courant.",
+                "voice": "4d-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "score": "6",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "L’objectif de ma visite aujourd’hui est de vous démontrer les avantages d’ISILAX SB par rapport à DUPHALAC pour tous vos nouveaux patients.",
+                "voice": "5a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "L’objectif de ma visite aujourd’hui est de vous démontrez les avantages significatifs d’ISILAX SB comparés à DUPHALAC.",
+                "voice": "5b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "Le but de ma visite aujourd’hui est de vous démontrer les avantages d'ISILAX SB.",
+                "voice": "5c-rep.mp3"
+              },
+              {
+                "id": "4",
+                "weight": "0",
+                "answer": "4",
+                "text": "J'imagine que vous êtes soucieux du prix d'ISILAX SB mais laissez-moi vous démontrer ses avantanges.",
+                "voice": "5d-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "6",
+                "text": "Et bien j’écoute.",
+                "voice": "5a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "6",
+                "text": "OK, continuez.",
+                "voice": "5b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "6",
+                "text": "OK, j’écoute.",
+                "voice": "5c-doc.mp3"
+              },
+              {
+                "id": "4",
+                "gotodialog": "6",
+                "text": "Ce n'est pas la seule raison mais bon je vous écoute.",
+                "voice": "5d-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "score": "6",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Sachez Docteur en prescrivant ISILAX SB,vous allez offrir à vos patient une triple action : -Effet laxatif osmotique. -Effet laxatif de lest. -Action bifidogène. ISILAX SB est le seul médicament dans sa classe qui offre à vos patients ces avantages.",
+                "voice": "6a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "ISILAX SB Docteur, grâce à sa formule triple action : -Avec un Effet laxatif osmotique. -Un Effet laxatif de lest. -et une Action bifidogène. Apporte une efficacité à vos patients avec un bien-être intestinal contrairement à DUPHALAC. Ne pensez vous pas Docteur que l'efficacité avec une bonne tolérance représentent un grand avantage?",
+                "voice": "6b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "7",
+                "text": "Absolument c'est important.",
+                "voice": "6a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "7",
+                "text": "Bien sûr que l’efficacité et la tolérance sont importantes dans le traitement.",
+                "voice": "6b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Est-ce la cas pour vous ? Puis je vous demander combien vous en voyez environ chaque jour ? ",
+                "voice": "7a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Avez-vous la même impression ?",
+                "voice": "7b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "Vos confrères me disent qu’ils voient de plus en plus de patients souffrant de constipation. Puis-je vous demander combien de fois par jour vous prescrivez-un médicament de cette classe ?",
+                "voice": "7c-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "8",
+                "text": "Je n’ai pas le chiffre exact, mais je dirais une dizaine",
+                "voice": "7a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "8",
+                "text": "Oui, clairement je vois de plus en plus de patients.",
+                "voice": "7b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "8",
+                "text": "Je ne sais pas, mais certainement beaucoup.",
+                "voice": "7c-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Puis-je vous demander environ combien d’entre eux prennent ISILAX SB ? 1 patient ?",
+                "voice": "8a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "Puis-je vous demander combien prennent ISILAX SB, même approximativement?",
+                "voice": "8b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "9",
+                "text": "Ah non, je dirais  2 ou 3.",
+                "voice": "8a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "9",
+                "text": "Honnêtement, je n’en ai aucune idée. Peut être 4 ou 5. ",
+                "voice": "8b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "ISILAX SB à base  de Manne (riche en Mannitol), de fibres alimentaires, de jus de prune et de pré biotiques est efficace contre la constipation et doux pour les intestins car il aide à rétablir le bien être intestinal quotidien de vos patients et les soulage rapidement grâce à sa formule issue de la nature et prouvée par l'experience.",
+                "voice": "9a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.6",
+                "answer": "2",
+                "text": "L'efficacité ainsi que la tolérance d'ISILAX SB sont liés à sa composante, ce qui offre à vos patients un soulagement rapide et une amélioration du transit.",
+                "voice": "9b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "10",
+                "text": "C’est en effet très intéressant, mais qu’en est-il des effets secondaires ?",
+                "voice": "9a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "10",
+                "text": "C’est en effet très intéressant, mais qu’en est-il des effets secondaires ?",
+                "voice": "9b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "10",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Je vous remercie de me poser la question car ISILAX SB est le seul de sa classe qui est préscrit auprès des nourissants contrairement aux autres. La sécurité représente un grand avantage auprès de vos patient Docteur.",
+                "voice": "10a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "Je le compare à DUPHALAC qui est beaucoup moins cher.",
+                "voice": "10b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "11",
+                "text": "C’est juste, mais votre médicament est également plus cher !",
+                "voice": "10a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "11",
+                "text": "C’est juste, mais votre médicament est également plus cher !",
+                "voice": "10b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "score": "6",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Votre souci est bien légitime compte-tenu du contexte économique actuel. Mais pour mieux vous comprendre, puis-je vous demander avec quel autre médicament comparez-vous ISILAX SB ?",
+                "voice": "11a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "C’est le prix de la formule d'ISILAX SB. Puis-je vous demander à quel médicament comparez-vous ISILAX SB ?",
+                "voice": "11b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "12",
+                "text": "Je le compare à DUPHALAC qui  est moins cher de presque 35 DH d'ISILAX SB.",
+                "voice": "11a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "12",
+                "text": "Je le compare à DUPHALAC qui est beaucoup moins cher.                ",
+                "voice": "11b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "12",
+          "score": "6",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "C'est vrai Dr , on est un peu plus cher et c'est justifié .ISILAX SB est le seul laxatif qui offre une triple action grâce à sa formule naturelle et c'est le seul qui est indiqué chez le nourisson  contrairement à l'autre produit.\n En plus de l'éfficacité Docteur je vous apporte la tolérance, la sécurité et le bien être pour vos patients..",
+                "voice": "12a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "Les nouveaux produits sont en général plus chers. \n ISILAX SB est une innovation vu sa formule complète.Le prix d'ISILAX est justifié par rapport à DUPHALAC.",
+                "voice": "12b-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "13",
+                "text": "Effectivement, ça se tient.",
+                "voice": "12a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "13",
+                "text": "Clairement, cela couterait beaucoup plus cher sans aucun doute.",
+                "voice": "12b-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "score": "8",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Pour résumer, quels sont les trois points clefs à retenir sur ISILAX SB :\n Premièrement, ISILAX SB c'est le seul de sa classe qui offre une triple action pour une éfficacité et un soulagement rapide de vos patients.\n Deuxièmement,la bonne tolérance qui a été démontrée grâce à ses composants naturels. Et enfin, la sécurité d'emploi .Et  Comme vous l’avez souligné DR , un bon traitement doit être bien toléré ne serait ce que pour éviter l'arrêt du traitement pour une bonne observance.",
+                "voice": "13a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.7",
+                "answer": "2",
+                "text": "Pour résumer, le mode d’action d’ISILAX SB fait de lui un laxatif efficace avec sa triple action. \n Je pense que vous auriez intérêt à essayer de prescrire ISILAX SB à la place de DUPHALAC pour vos nouveaux patients. Ainsi nous pourrons en discuter lors de ma prochaine visite.",
+                "voice": "13b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.2",
+                "answer": "3",
+                "text": "Comme vous m’avez l’air convaincu, seriez-vous prêt à prescrire ISILAX SB plus souvent ? comme ça lors de ma prochaine visite, nous parlerons de vos résultats et de votre feedback ? La posologie est 1 à 2 cuillères à café chez le nourisson et l'enfant.Chez l'adulte 1 à 2 cuillères à soupe 2 fois par jour.",
+                "voice": "13c-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "14",
+                "text": "Tout à fait.",
+                "voice": "13a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "14",
+                "text": "C’est une idée.",
+                "voice": "13b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "14",
+                "text": "Non non, merci, c'était très intéressant.",
+                "voice": "13c-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "score": "8",
+          "who": "user",
+          "step": "2",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Compte-tenu de tout ces avantages, êtes vous prêt à prescrire ISILAX SB à vos nouveaux patients ?",
+                "voice": "14a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "Donc allez vous commencer à prescrire ISILAX SB à tous vos nouveaux patients ?",
+                "voice": "14b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "Compte-tenu des avantages que nous avons abordés, je compte sur vous pour prescrire ISILAX SB à tous vos nouveaux patients.",
+                "voice": "14c-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "15",
+                "text": "Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.",
+                "voice": "14a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "15",
+                "text": "Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.",
+                "voice": "14b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "15",
+                "text": "Je suis assez satisfait avec DUPHALAC mais je vais y réfléchir.",
+                "voice": "14c-doc.mp3"
+              }
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "score": "8",
+          "who": "user",
+          "step": "2",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "J’espère que ces nouvelles informations vous feront changer d’avis. Puis-je vous suggérer DR que nous discutions de votre expérience lors de ma prochaine visite?",
+                "voice": "15a-rep.mp3"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "Discutons-en DR à nouveau lors de ma prochaine visite.",
+                "voice": "15b-rep.mp3"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "Dommage. J’espère que nous pourrons en discuter DR la prochaine fois.",
+                "voice": "15c-rep.mp3"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "16",
+                "text": "Avec plaisir !",
+                "voice": "15a-doc.mp3"
+              },
+              {
+                "id": "2",
+                "gotodialog": "16",
+                "text": "Désolé mais j’ai des patients à voir maintenant. Bonne journée.",
+                "voice": "15b-doc.mp3"
+              },
+              {
+                "id": "3",
+                "gotodialog": "16",
+                "text": "Avec plaisir !",
+                "voice": "15d-doc.mp3"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

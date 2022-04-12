@@ -1,0 +1,840 @@
+{
+    "steps": {
+      "step": [
+        {
+          "id": "0",
+          "text": "Initiate"
+        },
+        {
+          "id": "1",
+          "text": "Engage"
+        },
+        {
+          "id": "2",
+          "text": "Commit"
+        }
+      ]
+    },
+    "dialogs": {
+      "dialog": [
+        {
+          "id": "1",
+          "score": "0",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [{
+              "id": "1",
+              "weight": "1",
+              "answer": "1",
+              "text": "Good morning Doctor. How are you?",
+              "voice": "1a-rep.mp4"
+            }]
+          },
+          "answers": {
+            "answer": [{
+              "id": "1",
+              "gotodialog": "2",
+              "text": "I am fine thank you, but already late in my schedule.",
+              "voice": "1a-doc.mp4"
+            }]
+          }
+        },
+        {
+          "id": "2",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "I understand. I suggest focusing on the latest news about ACTANDIS then. This should take no more than 5 minutes. Is it ok with you?",
+                "voice": "2a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "I understand. I will try to make it short and focus on the latest news about ACTANDIS. Is it ok with you?",
+                "voice": "2b-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "3",
+                "text": "Perfect, let\u2019s go ahead!",
+                "voice": "2a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "3",
+                "text": "Ok then, let\u2019s go ahead",
+                "voice": "2b-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "At our last meeting you said you were prescribing ACTANDIS to a few patients. Have you been able to use it in more cases since?",
+                "voice": "3a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "At our last meeting you said you were prescribing ACTANDIS to a few patients. Are you still doing the same?",
+                "voice": "3b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.2",
+                "answer": "3",
+                "text": "At our last meeting you said you were prescribing EXENTIS to most of your patients. Have you changed your mind since?",
+                "voice": "3c-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "4",
+                "text": "Not really, I still use about the same.",
+                "voice": "3a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "4",
+                "text": "Yes, I still use about the same.",
+                "voice": "3b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "4",
+                "text": "No, I still mostly prescribe EXENTIS. But I do prescribed ACTANDIS sporadically.",
+                "voice": "3c-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "4",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "I am glad that you have some experience using ACTANDIS, which is the first product with only a single dosage per day with a higher efficacy.",
+                "voice": "4a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "It is good that you\u2019ve had at least a little experience with ACTANDIS. Are you aware that ACTANDIS now comes in a single-dose packet?",
+                "voice": "4b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.6",
+                "answer": "3",
+                "text": "Today I am particularly proud tell you that ACTANDIS now comes in a single dosage per day.",
+                "voice": "4c-rep.mp4"
+              },
+              {
+                "id": "4",
+                "weight": "0.2",
+                "answer": "4",
+                "text": "I don't know if it will make much of a difference, but ACTANDIS is now available in a single dose packet.",
+                "voice": "4d-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "5",
+                "text": "Interesting.",
+                "voice": "4a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "5",
+                "text": "Of course I am.",
+                "voice": "4b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "5",
+                "text": "Well, I know it already.",
+                "voice": "4c-doc.mp4"
+              },
+              {
+                "id": "4",
+                "gotodialog": "5",
+                "text": "I know.",
+                "voice": "4d-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "The purpose of my visit today is to show you the advantages of using ACTANDIS instead of EXENTIS with your new patients.",
+                "voice": "5a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "The purpose of my visit today is to show you that ACTANDIS has significant advantages compare to EXENTIS.",
+                "voice": "5b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "The purpose of my visit today is to show you the advantages of using ACTANDIS.",
+                "voice": "5c-rep.mp4"
+              },
+              {
+                "id": "4",
+                "weight": "0",
+                "answer": "4",
+                "text": "I guess you are concerned about ACTANDIS\u2019 price but let me show you the advantages of using it.",
+                "voice": "5d-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "6",
+                "text": "Ok, I am listening.",
+                "voice": "5a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "6",
+                "text": "ok, go on.",
+                "voice": "5b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "6",
+                "text": "ok, I am listening.",
+                "voice": "5c-doc.mp4"
+              },
+              {
+                "id": "4",
+                "gotodialog": "6",
+                "text": "I can\u2019t say it\u2019s the only reason but ok, I am listening.",
+                "voice": "5d-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "score": "4",
+          "who": "user",
+          "step": "0",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "By prescribing ACTANDIS with a single daily dose, you ensure better compliance, and therefore better efficacy. Your patients will be well treated.",
+                "voice": "6a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "Our product allows you to prescribe a single daily dose instead of two with EXENTIS. It reduces the number of pills and therefore compliance is higher. Don\u2019t you think compliance is critical when we speak about chronic diseases?",
+                "voice": "6b-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "7",
+                "text": "I agree this is an important point. Compliance is key when treating chronic diseases.",
+                "voice": "6a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "7",
+                "text": "Yes of course, compliance is key when treating chronic diseases.",
+                "voice": "6b-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Your colleagues tell me that they encounter more and more patients suffering from this disease. What about you, how many patients do you see a day?",
+                "voice": "7a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.5",
+                "answer": "2",
+                "text": "Your colleagues tell me that they encounter more and more patients suffering from this disease. Do you have the same experience?",
+                "voice": "7b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.4",
+                "answer": "3",
+                "text": "Your colleagues tell me that they encounter more and more patients suffering from this disease. What about you, how many prescriptions of the class do you write a day?",
+                "voice": "7c-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "8",
+                "text": "I don\u2019t know exactly. I would say around 10.",
+                "voice": "7a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "8",
+                "text": "Yes, clearly I see more and more patients",
+                "voice": "7b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "8",
+                "text": "I don't know, but certainly a lot.",
+                "voice": "7c-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "May I ask you how many are on ACTANDIS?",
+                "voice": "8a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.6",
+                "answer": "2",
+                "text": "Yes, there are more and more patients every day. May I ask you how many are on ACTANDIS, even approximately?",
+                "voice": "8b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.8",
+                "answer": "3",
+                "text": "What do you mean by a lot? 1 per day?",
+                "voice": "8c-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "9",
+                "text": "I would say currently I am prescribing 3 or 4 out of ten, mostly with new patients",
+                "voice": "8a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "9",
+                "text": "Honestly, I have no idea. But certainly a lot.",
+                "voice": "8b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "9",
+                "text": "I would say currently I am prescribing 3 or 4 out of ten, mostly with new patients",
+                "voice": "8c-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Doctor, in this clinical trial that includes 1050 patients, our product ACTANDIS controlled the disease with 84 % of patients. \nGood compliance explains these results. Don\u2019t you think it\u2019s a great result?",
+                "voice": "9a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.6",
+                "answer": "2",
+                "text": "Doctor, in this clinical trial that includes 1050 patients, only 16 % of patients were not controlled by ACTANDIS.\nGood compliance explains these results. What do you think?",
+                "voice": "9b-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "10",
+                "text": "Of course this is interesting. But what about side effects?",
+                "voice": "9a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "10",
+                "text": "Of course this is interesting. But what about side effects?",
+                "voice": "9b-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "10",
+          "score": "10",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Thank you for asking, this is another advantage with ACTANDIS. The same study concluded that 78% of the patients did not face any side effect after 3 years of treatment compared with only 50% for EXENTIS. This better safety profile reduces even more the risk to stop the treatment.",
+                "voice": "10a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "Thank you for asking, this is another advantage with ACTANDIS. The same study concluded that only 230 patients had side effects with ACTANDIS, compared to more than 500 with EXENTIS.",
+                "voice": "10b-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "11",
+                "text": "This is important for my patients, but I am concerned that one missed dose would equal 24 hours without treatment.",
+                "voice": "10a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "11",
+                "text": "This is important for my patients, but I am concerned that one missed dose would equal 24 hours without treatment.",
+                "voice": "10b-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "score": "6",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "I understand your concern. May I ask you what is better: to miss 24 hours of treatment only once, or to miss 12 hours on a regular basis?",
+                "voice": "11a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "I understand your concern. But don\u2019t you think it is at least better for the comfort of your patients?  ",
+                "voice": "11b-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "12",
+                "text": "Right! But your product is still very expensive!",
+                "voice": "11a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "12",
+                "text": "Perhaps but your product is still very expensive!",
+                "voice": "11b-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "12",
+          "score": "6",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "I understand your concern particularly with regard to the economic context today. May I ask you to what product you are comparing ACTANDIS to in order to better understand?",
+                "voice": "12a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "This is the price of innovation. May I ask you to what product you are comparing ACTANDIS?",
+                "voice": "12b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.6",
+                "answer": "3",
+                "text": "May I ask you to what product you are comparing ACTANDIS to in order to better understand?",
+                "voice": "12c-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "13",
+                "text": "I compare it with EXENTIS which is 20% less expensive.",
+                "voice": "12a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "13",
+                "text": "I compare it with EXENTIS.",
+                "voice": "12b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "13",
+                "text": "I compare it with EXENTIS.",
+                "voice": "12c-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "score": "8",
+          "who": "user",
+          "step": "1",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Therefore, we are speaking about an additional cost of only 30 cents daily. This small extra amount is justified by the better efficacy and safety, as the one dose dailyrepresenta significant ease of use for patients compared to 2 times daily for the previous class. What do you think?",
+                "voice": "13a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.7",
+                "answer": "2",
+                "text": "I understand, but as your patients are better treated with ACTANDIS, you avoid complications that can cost a significant amount, particularly if the patient has to go to the hospital!",
+                "voice": "13b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.2",
+                "answer": "3",
+                "text": "New products are always more expensive because there are better. This is the case with ACTANDIS. ACTANDIS is new and better which is why it is more expensive.\n \n",
+                "voice": "13c-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "14",
+                "text": "Agree, this makes sense.",
+                "voice": "13a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "14",
+                "text": "Clear. This would cost more, no doubt.",
+                "voice": "13b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "14",
+                "text": "Well, maybe.",
+                "voice": "13c-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "score": "8",
+          "who": "user",
+          "step": "2",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "To sum up, what are the 3 main points to keep in mind?\nFirst ACTANDIS now comes with a single dose daily. \nSecond, with its higher compliance, ACTANDIS is the only product that shows a better efficacy than the previous class.\nAnd third ACTANDIS is well tolerated.\nYou told me you appreciate the fact that patients could benefit a good treatment that is well tolerated.",
+                "voice": "14a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "To sum up, ACTANDIS mechanism of action makes it the first medication to have a better efficacy with only one single dosage daily.\nI think it would be a good idea for you to try prescribing ACTANDIS instead of EXENTIS with your new patients. Then we can discuss your results during my next visit.",
+                "voice": "14b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.6",
+                "answer": "3",
+                "text": "To sum up, what are the 3 main points to keep in mind?\nFirst ACTANDIS now comes with a single dose daily. \nSecond, with its higher compliance, ACTANDIS is the only product that shows a better efficacy than the previous class.\nAnd third ACTANDIS is well tolerated.\nHow many patients are you planning to include with this new treatment.",
+                "voice": "14c-rep.mp4"
+              },
+              {
+                "id": "4",
+                "weight": "0.4",
+                "answer": "4",
+                "text": "As it seems you are convinced, Doctor, would you be ready to use ACTANDIS more and next time I come, we will discuss about the results and your feedback t. The right dosage is one pill per day, anytime during the day!",
+                "voice": "14d-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "15",
+                "text": "Yes",
+                "voice": "14a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "15",
+                "text": "It\u2019s an idea.",
+                "voice": "14b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "15",
+                "text": "I don\u2019t know, It will also depend on the opportunity to switch.",
+                "voice": "14c-doc.mp4"
+              },
+              {
+                "id": "4",
+                "gotodialog": "15",
+                "text": "I would consider it.",
+                "voice": "14d-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "score": "8",
+          "who": "user",
+          "step": "2",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "Given these benefits, are you ready today to prescribe ACTANDIS to all your new patients?",
+                "voice": "15a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.8",
+                "answer": "2",
+                "text": "So, are you going to start using ACTANDIS with all your patients?",
+                "voice": "15b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.6",
+                "answer": "3",
+                "text": "Given all the advantages discussed, I count on you to prescribe ACTANDIS to all your new patients.",
+                "voice": "15c-rep.mp4"
+              },
+              {
+                "id": "4",
+                "weight": "0.2",
+                "answer": "4",
+                "text": "The correct dosage is one packet a day.",
+                "voice": "15d-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "16",
+                "text": "I am quite happy with EXENTIS, but I will see.",
+                "voice": "15a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "16",
+                "text": "I will think about it but I am quite happy with EXENTIS I already use.",
+                "voice": "15b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "16",
+                "text": "I will think about it but I am quite happy with EXENTIS I already use.",
+                "voice": "15c-doc.mp4"
+              },
+              {
+                "id": "4",
+                "gotodialog": "16",
+                "text": "Ok, thank you for the information.",
+                "voice": "15d-doc.mp4"
+              }
+            ]
+          }
+        },
+        {
+          "id": "16",
+          "score": "4",
+          "who": "user",
+          "step": "2",
+          "questions": {
+            "question": [
+              {
+                "id": "1",
+                "weight": "1",
+                "answer": "1",
+                "text": "I hope these new information will make you change your mind then. I suggest we discuss your experience during my next visit.",
+                "voice": "16a-rep.mp4"
+              },
+              {
+                "id": "2",
+                "weight": "0.2",
+                "answer": "2",
+                "text": "What is better - for patients to take two pills with a low compliance or ACTANDIS with high compliance, high efficacy and low side effects?",
+                "voice": "16b-rep.mp4"
+              },
+              {
+                "id": "3",
+                "weight": "0.1",
+                "answer": "3",
+                "text": "Too bad. I hope we can discuss it next time.",
+                "voice": "16c-rep.mp4"
+              },
+              {
+                "id": "4",
+                "weight": "0.4",
+                "answer": "4",
+                "text": "Ok doctor, I suggest we discuss further during my next visit then.",
+                "voice": "16d-rep.mp4"
+              }
+            ]
+          },
+          "answers": {
+            "answer": [
+              {
+                "id": "1",
+                "gotodialog": "-1",
+                "text": "Ok, thank you and good bye.",
+                "voice": "16a-doc.mp4"
+              },
+              {
+                "id": "2",
+                "gotodialog": "-1",
+                "text": "I am sorry but I have to see a patient now. Have a nice day.",
+                "voice": "16b-doc.mp4"
+              },
+              {
+                "id": "3",
+                "gotodialog": "-1",
+                "text": "I am sorry but I have to see a patient now. Have a nice day.",
+                "voice": "16c-doc.mp4"
+              },
+              {
+                "id": "4",
+                "gotodialog": "-1",
+                "text": "Ok, thank you and good bye.",
+                "voice": "16d-doc.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
