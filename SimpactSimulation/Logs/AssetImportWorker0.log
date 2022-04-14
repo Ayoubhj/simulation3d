@@ -172,3 +172,4 @@ Received Import Request.
 Start importing Assets/animations/eric/doctor.fbx using Guid(7cfc57e5486cd554490b3b6c6667b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcee6749337168e1b193f4f3214cfc4') in 0.308328 seconds 
   Import took 0.318973 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
